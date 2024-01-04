@@ -1,0 +1,71 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    color: #e44d26; /* Vermelho Pokémon */
+}
+
+.search-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4cb050; /* Verde Pokémon */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #388e3c; /* Verde Pokémon mais escuro */
+}
+
+.hidden {
+    display: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+}
+
